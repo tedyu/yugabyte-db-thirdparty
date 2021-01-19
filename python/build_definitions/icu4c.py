@@ -16,8 +16,8 @@ from yugabyte_db_thirdparty.rpath_fixes import fix_shared_library_references
 
 
 class Icu4cDependency(Dependency):
-    VERSION_MAJOR = 67
-    VERSION_MINOR = 1
+    VERSION_MAJOR = 68
+    VERSION_MINOR = 2
     VERSION_WITH_UNDERSCORE = '%d_%d' % (VERSION_MAJOR, VERSION_MINOR)
     VERSION_WITH_DASH = '%d-%d' % (VERSION_MAJOR, VERSION_MINOR)
     CUSTOM_URL_PATTERN = \
